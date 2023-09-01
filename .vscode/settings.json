@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.java": "bat",
+        "iostream": "cpp",
+        "*.tcc": "cpp"
+    }
+}

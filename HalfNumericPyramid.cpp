@@ -7,11 +7,10 @@ int main (){
     cin>>n;
 
     for (int rows = 0; rows < n; rows++)
-    {
-        for (int col = 0; col < rows+1; col++)
-        {
-            cout<<"*";
-        }
+    {   
+        for (int col = 0; col < rows+1; col++){    
+                cout<<col+1<<" ";
+            }
         cout<<endl;
         
     }
