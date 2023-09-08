@@ -1,20 +1,26 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+//CHATGPT
+int main() {
     int n;
-    cout<<"Enter the number: ";
-    cin>>n;
+    cout << "Enter the number of lines: ";
+    cin >> n;
 
-    for (int row = 0; row < n; row++)
-    {
-        char ch = 'A';
-        for (int col = 0; col < row+1; col++)
-        {
-            cout<<ch-'A'+1;
+    for (int i = 0; i < n; i++) {
+
+        // Print characters in ascending order
+        for (char ch = 'A'; ch <= 'A' + i; ch++) {
+            cout << ch;
         }
-        cout<<endl;
-        
+
+        // Print characters in descending order (excluding 'A')
+        for (char ch = 'A' + i - 1; ch >= 'A'; ch--) {
+            cout << ch;
+        }
+
+        cout << endl;
     }
-    
+
+    return 0;
 }

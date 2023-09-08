@@ -2,6 +2,8 @@
     "files.associations": {
         "*.java": "bat",
         "iostream": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "algorithm": "cpp",
+        "ostream": "cpp"
     }
 }
