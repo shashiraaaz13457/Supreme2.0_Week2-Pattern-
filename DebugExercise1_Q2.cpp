@@ -14,9 +14,9 @@ int main(){
     cin>>n;
     int i=1;
     while(i<=n){
-        int j = i,count = 1;
+        int j = i,count = 0;
         while(count<i){
-            cout<<count+j;
+            cout<<count+i;
             j = j + 1;
             count = count + 1;
         }
