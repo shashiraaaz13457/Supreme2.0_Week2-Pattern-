@@ -7,6 +7,7 @@ N = 5
  ***
   *
 */
+//NOT understood
 #include<iostream>
 using namespace std;
 void printPatt(int n){
