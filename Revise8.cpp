@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//EASY pissy
 int main(){
     int n;
     cin>>n;
