@@ -2,18 +2,6 @@
 using namespace std;
 
 int main(){
-    // int num1 = 10;
-    // int num2 = 5;
-    // int c = num1&num2;
-    // cout<<c;
-
-    //TYpecasting
-
-    // int a = 10;
-    // int b = 3.0;
-    // float c = a/b;
-    // cout<<c<<endl;
-
     int a;
     int b;
     int op;
